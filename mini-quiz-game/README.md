@@ -1,12 +1,31 @@
 # 🧩 Riddle Quiz Game
 
-### 🎮 How to Play
-* The game will present you with a riddle.
-* Type your answer in the terminal and press **Enter**.
-* If you get at least **8 out of 10** correct, you win!
+A simple terminal-based quiz game where you solve riddles. Answer at least 8 out of 10 correctly to win! 😎
 
-### 🚀 Features
-* **10 Unique Riddles:** Ranging from logic to wordplay.
-* **Instant Feedback:** Shows whether your answer is correct or reveals the right one.
-* **Score Tracking:** Calculates your final score at the end of the session.
-* **User Friendly:** Handles both uppercase and lowercase inputs automatically.
+---
+
+## 🎮 How to Play
+
+1. The game will present you with a riddle.  
+2. Type your answer in the terminal and press **Enter**.  
+3. If you get at least 8 out of 10 correct, you win! 🎉
+
+---
+
+## 🚀 Features
+
+- **10 Unique Riddles:** From logic puzzles to wordplay.  
+- **Instant Feedback:** Shows whether your answer is correct or reveals the right one.  
+- **Score Tracking:** Calculates your final score at the end of the session.  
+- **User-Friendly:** Handles both uppercase and lowercase inputs automatically.  
+- **Input Validation:** Prevents blank answers for smoother gameplay.
+
+---
+
+## 🛠 How to Run
+
+1. Make sure you have **Python** installed.  
+2. Install dependencies:
+   ```bash
+   pip install colorama
+3. python quiz_game.py
