@@ -8,13 +8,13 @@ while num<length:
 	answer=input("-")
 	if answer.lower()==list(questions.values())[num]:
 		correct+=1
-		print("True")
+		print("True \u2705")
 	else:
-		print(f"False. True answer is {list(questions.values())[num]}")
+		print(f"Wrong \u274c . True answer is {list(questions.values())[num]}")
 	num+=1
 print("\n")
 print(f"Amount of correct answer is {correct} from {len(questions)} ")
 if correct>=8:
-	print("\nCongrats. You Win")
+	print("\nCongrats. You Win \U0001F44F")
 else:
 	print("\nTry again")
