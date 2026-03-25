@@ -22,8 +22,8 @@ while num<length:
 print("\n")
 print(f"Score is {correct}/{len(questions)}\n")
 if correct==10:
-	print("YOU ARE AMAZING \U0001F929 ".center(c))
+	print("YOU ARE AMAZING \U0001F929 ")
 elif correct>=8:
-	print("\nCongrats. You Win \U0001F44F".center(c))
+	print("\nCongrats. You Win \U0001F44F")
 else:
-	print("\nYou lost. Try again")
+	print("\nYou lost. Try again \U0001F614")
