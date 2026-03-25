@@ -20,12 +20,3 @@ A simple terminal-based quiz game where you solve riddles. Answer at least 8 out
 - **User-Friendly:** Handles both uppercase and lowercase inputs automatically.  
 - **Input Validation:** Prevents blank answers for smoother gameplay.
 
----
-
-## 🛠 How to Run
-
-1. Make sure you have **Python** installed.  
-2. Install dependencies:
-   ```bash
-   pip install colorama
-3. python quiz_game.py
