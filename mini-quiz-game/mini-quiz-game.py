@@ -9,11 +9,14 @@ while num<length:
 	if answer.lower()==list(questions.values())[num]:
 		correct+=1
 		print("True \u2705")
+	elif answer=="":
+		print(" \u26A0 Please do not leave the answer blank. Enter something!")
+		continue
 	else:
 		print(f"Wrong \u274c . True answer is {list(questions.values())[num]}")
 	num+=1
 print("\n")
-print(f"Score is {correct}/{len(questions)} ")
+print(f"Amount of correct answer is {correct} from {len(questions)} ")
 if correct>=8:
 	print("\nCongrats. You Win \U0001F44F")
 else:
