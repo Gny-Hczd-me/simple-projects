@@ -13,7 +13,7 @@ while num<length:
 		print(f"Wrong \u274c . True answer is {list(questions.values())[num]}")
 	num+=1
 print("\n")
-print(f"Amount of correct answer is {correct} from {len(questions)} ")
+print(f"Score is {correct}/{len(questions)} ")
 if correct>=8:
 	print("\nCongrats. You Win \U0001F44F")
 else:
